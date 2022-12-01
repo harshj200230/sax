@@ -10,7 +10,8 @@ $mysqli = new mysqli( $host,
                      $username, 
                      $password, 
                      $dbname);
-//  echo ("hi");
+ echo ("hi");
+ echo ("hi");
 if($mysqli->connect_errno)
 {
     die("Connection error: " . $mysqli->connect_error);
